@@ -73,6 +73,8 @@ To use the script, go to File > Scripts > JsonExporter. Then it's as simple as f
 
 **Vertical Frames:** The number of rows on the exported spritesheet.
 
+**X/Y Offset:** The offset of the sprite.
+
 **Merge Duplicate Frames:** Whether the JSON should use the same index for duplicate frames or not. If you choose to merge duplicate frames, make sure to export the sprite sheet with duplicate frames merged as well.
 
 Finally, right now Encore reads animation data from YAML files, so you'll have to convert the exported JSON into a YAML file. 
